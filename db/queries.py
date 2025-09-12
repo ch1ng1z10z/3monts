@@ -9,5 +9,7 @@ task TEXT NOT NULL
 INSERT_TASK = "INSERT INTO tasks (task) VALUES (?)"
 
 SELECT_TASKS = "SELECT id, task FROM tasks"
+
 UPDATE_TASKS = "UPDATE tasks SET task = 7 WHERE id = ?"
-DELETE_TASK = "DELETE tasks "
+
+DELETE_TASK = "DELETE  FROM tasks WHERE id = ?"
