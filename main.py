@@ -35,7 +35,7 @@ def main(page: ft.Page):
             main_db.delete_task(task_id)
             load_task()
         
-        delete_button = ft.IconButton(icon=ft.Icons.DELETE, tooltip='удалить', on_click=delete_tassk)
+        delete_button = ft.IconButton(icon=ft.Icons.DELETE, tooltip='удалить', icon_color="red", on_click=delete_tassk)
         page.update
         
 
